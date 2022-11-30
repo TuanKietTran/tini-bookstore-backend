@@ -11,8 +11,8 @@ services:
       MYSQL_DATABASE: tini
       MYSQL_USER: tinisv
       MYSQL_PASSWORD: password
-    healthcheck:
-      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
-      interval: 5s
-      timeout: 5s
-      retries: 5
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 3300:3300

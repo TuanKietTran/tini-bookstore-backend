@@ -156,24 +156,21 @@ components:
     book:
       type: object
       properties:
-        "id":
-          type: number
-        "isbn":
+        "uuid":
           type: number
         "name":
           type: string
-        "type":
-          type: string
-        "author":
-          type: string
-        "cover":
-          type: string
-          format: url
-        "publisher":
-          type: string
-        "pagesnum":
+        "isbn":
           type: number
         "price":
+          type: string
+        "discount":
+          type: number
+        "amount":
+          type: number
+        "publisher":
+          type: string
+        "publishingYear":
           type: number
 
     branch:

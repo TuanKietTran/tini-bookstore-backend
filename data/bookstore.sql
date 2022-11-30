@@ -1,126 +1,127 @@
 CREATE DATABASE bookstore;
 USE bookstore;
 
------------------- T?o b?ng-------------------
+------------------ Tạo bảng-------------------
 
 CREATE TABLE Employee
 (
-    SSN         CHAR(6),
-    E_Name      VARCHAR(255) NOT NULL,
-    City    VARCHAR(255) NOT NULL,
-    District        VARCHAR(255) NOT NULL,
-    StreetNum     VARCHAR(255) NOT NULL,
-    E_Role      VARCHAR(255) NOT NULL,
-    Email       VARCHAR(255) NOT NULL,
-    Rate        DECIMAL(6,2) NOT NULL,
-    Branch_ID   CHAR(6) NOT NULL,
-    Phone       Varchar(255) NOT NULL,
-    CONSTRAINT PK_SSN PRIMARY KEY (SSN)
+    E_ID                CHAR(3) NOT NULL
+    SSN                 CHAR(12) NOT NULL UNIQUE,
+    E_Name              VARCHAR(50) NOT NULL,
+    City                VARCHAR(50) NOT NULL,
+    District            VARCHAR(50) NOT NULL,
+    StreetNum           VARCHAR(50) NOT NULL,
+    E_Role              VARCHAR(50) NOT NULL,
+    Email               VARCHAR(50) NOT NULL,
+    Rate                DECIMAL(6,2) NOT NULL,
+    Branch_ID           CHAR(6) NOT NULL,
+    Phone               VARCHAR(50) NOT NULL,
+    CONSTRAINT PK_SSN PRIMARY KEY (E_ID)
 );
 
 CREATE TABLE Branch
 (
-    B_ID        CHAR(6),
-    City    varchar(255) NOT NULL,
-    District        varchar(255) NOT NULL,
-    StreetNum     varchar(255) NOT NULL,
+    B_ID                CHAR(3),
+    City                VARCHAR(50) NOT NULL,
+    District            VARCHAR(50) NOT NULL,
+    StreetNum           VARCHAR(50) NOT NULL,
     Constraint PK_ID PRIMARY KEY (B_ID)
 );
 
 create table Is_stored
 (
-    Product_UUID    Char(6),
-    Branch_ID       Char(6),
+    Product_UUID        CHAR(3),
+    Branch_ID           CHAR(3),
     Constraint PK_IS_STORED PRIMARY KEY (Product_UUID, Branch_ID)
 );
 
 
 create table Product_type
 (
-    Code    char(6),
-    P_Description varchar(255),
+    Code                CHAR(6),
+    P_Description       VARCHAR(50),
     constraint PK_Product_type Primary key (Code, P_Description)
 );
 
 create table Product
 (
-    UUID        Char(6),
-    P_Name      Varchar(255) NOT NULL,
-    Price       decimal(10,2) NOT NULL,
-    Discount    decimal(2,2) NOT NULL,
-    Amount      decimal(10,0) NOT NULL,
-    Product_type_code   char(6) NOT NULL,
+    UUID                CHAR(6),
+    P_Name              VARCHAR(50) NOT NULL,
+    Price               DECIMAL(10,2) NOT NULL,
+    Discount            DECIMAL(2,2) NOT NULL,
+    Amount              DECIMAL(10,0) NOT NULL,
+    Product_type_code   CHAR(6) NOT NULL,
     constraint PK_Product primary key (UUID)
 );
 
 create table Book
 (
-    Book_UUID char(6),
-    IBSN    char(6),
-    Publishing_year date,
-    Publisher   varchar(255),
+    Book_UUID           CHAR(6),
+    IBSN                CHAR(6),
+    Publishing_year     DATE,
+    Publisher           VARCHAR(50),
     constraint PK_BOOK primary key (Book_UUID)
 );
 
 create table Stationery
 (
-    Stationery_UUID char(6),
-    Barcode    varchar(255),
-    Distributor   varchar(255),
+    Stationery_UUID     CHAR(6),
+    Barcode             VARCHAR(50),
+    Distributor         VARCHAR(50),
     constraint PK_Stationery primary key (Stationery_UUID)
 );
 
 create table Book_author
 (
-    UUID char(6),
-    Author   varchar(255),
+    UUID                CHAR(6),
+    Author              VARCHAR(50),
     constraint PK_Book_Author primary key (UUID, Author)
 );
 
 create table Included
 (
-    Product_UUID    char(6),
-    Bill_ID char(6),
-    Quantity decimal(5,0) NOT NULL,
+    Product_UUID        CHAR(6),
+    Bill_ID             CHAR(6),
+    Quantity            DECIMAL(5,0) NOT NULL,
     constraint PK_Included Primary key (Product_UUID, Bill_ID)
 );
 
 create table Bill
 (
-    B_ID char(6),
-    City    VARCHAR(255) NOT NULL,
-    District        VARCHAR(255) NOT NULL,
-    StreetNum     VARCHAR(255) NOT NULL,
-    Status      varchar(255) NOT NULL,
-    Phone       char(11) NOT NULL,
-    Email       varchar(255) NOT NULL,
-    Customer_name varchar(255) NOT NULL,
-    Payment_Method  varchar(255) NOT NULL,
-    Total       decimal(5,0) NOT NULL,
-    Customer_ID char(6) NOT NULL,
+    B_ID                CHAR(6),
+    City                VARCHAR(50) NOT NULL,
+    District            VARCHAR(50) NOT NULL,
+    StreetNum           VARCHAR(50) NOT NULL,
+    Status              VARCHAR(50) NOT NULL,
+    Phone               CHAR(11) NOT NULL,
+    Email               VARCHAR(50) NOT NULL,
+    Customer_name       VARCHAR(50) NOT NULL,
+    Payment_Method      VARCHAR(50) NOT NULL,
+    Total               DECIMAL(5,0) NOT NULL,
+    Customer_ID         CHAR(6) NOT NULL,
     constraint PK_Customer primary key (B_ID)
 );
 
 create table Customer
 (
-    C_ID char(6),
-    C_Name    varchar(255) NOT NULL,
-    City    VARCHAR(255) NOT NULL,
-    District        VARCHAR(255) NOT NULL,
-    StreetNum     VARCHAR(255) NOT NULL,
-    Phone   char(11) NOT NULL,
+    C_ID                CHAR(6),
+    C_Name              VARCHAR(50) NOT NULL,
+    City                VARCHAR(50) NOT NULL,
+    District            VARCHAR(50) NOT NULL,
+    StreetNum           VARCHAR(50) NOT NULL,
+    Phone               CHAR(11) NOT NULL,
     constraint PK_Customer primary key (C_ID)
 );
 
 create table C_Account
 (
-    UserName varchar(255),
-    C_Password    varchar(255) NOT NULL,
-    C_ID   char(6) NOT NULL,
+    UserName            VARCHAR(50),
+    C_Password          VARCHAR(50) NOT NULL,
+    C_ID                CHAR(6) NOT NULL,
     constraint PK_Account primary key (UserName)
 );
 
--------------- T?o kh�a ngo?i ----------------------
+-------------- Tạo khoá ngoại ----------------------
 ALTER TABLE Employee
     ADD (
             CONSTRAINT FK_Employee_Branch FOREIGN KEY(Branch_ID) REFERENCES Branch(B_ID)
