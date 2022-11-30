@@ -1,6 +1,6 @@
 CREATE TABLE Book
 (
-    BookId          BIGINT  CONSTRAINT BookPk PRIMARY KEY,
+    BookId          BIGINT,
     ISBN            BIGINT,
     BookName        VARCHAR(150)    NOT NULL,
     BookType        VARCHAR(50)     NOT NULL,
@@ -8,9 +8,9 @@ CREATE TABLE Book
     Cover           VARCHAR(200),
     Publisher       VARCHAR(70),
     PagesNum        SMALLINT,
-    Price           DECIMAL(10,2)   NOT NULL
+    Price           DECIMAL(10,2)   NOT NULL,
+    CONSTRAINT BookPk PRIMARY KEY (BookId)
 );
-
 
 INSERT INTO Book VALUES (1,9786045,'Thao túng tâm lý','Tâm lý','Trương Tuấn','https://salt.tikicdn.com/cache/w1200/ts/product/90/49/97/ec88ab408c1997378344486c94dbac40.jpg','Nhà Xuất Bản Dân Trí',328,110000);
 INSERT INTO Book VALUES (2,3262827,'Yêu Được, Nắm Được, Thì Buông Được','Ngôn tình','Thuỷ An','https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/Book/lrg/9780/8037/9780803741713.jpg','Nhà Xuất Bản Thanh Niên',358,91900);
