@@ -153,6 +153,20 @@ components:
           type: string
           example: "Manager"
 
+    product:
+      type: object
+      properties:
+        "uuid":
+          type: number
+        "name":
+          type: string
+        "price":
+          type: string
+        "discount":
+          type: number
+        "amount":
+          type: number
+
     book:
       type: object
       properties:

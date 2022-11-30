@@ -67,8 +67,8 @@ create table Stationery
 (
     Stationery_UUID     CHAR(6),
     Barcode             VARCHAR(50),
-    Distributor         VARCHAR(50),
-    constraint PK_Stationery primary key (Stationery_UUID)
+    Distributor                 VARCHAR(50),
+    constraint PK_Stationery    primary key (Stationery_UUID)
 );
 
 create table Book_author
