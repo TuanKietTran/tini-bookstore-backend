@@ -216,3 +216,15 @@ INSERT INTO Book VALUES (196,4981462,'Thám Tử Lừng Danh Conan - Tập 17','
 INSERT INTO Book VALUES (197,3215461,'Thám Tử Lừng Danh Conan - Tập 18','Truyện tranh','Gosho Aoyama','https://bom.so/ujXJzu','Nhà Xuất Bản Kim Đồng',185,20000);
 INSERT INTO Book VALUES (198,9615437,'Thám Tử Lừng Danh Conan - Tập 19','Truyện tranh','Gosho Aoyama','https://bom.so/ujXJzu','Nhà Xuất Bản Kim Đồng',186,20000);
 INSERT INTO Book VALUES (199,1461843,'Thám Tử Lừng Danh Conan - Tập 20','Truyện tranh','Gosho Aoyama','https://bom.so/ujXJzu','Nhà Xuất Bản Kim Đồng',189,20000);
+
+-- 200
+INSERT INTO Book VALUES (200,0399103422,'The Godfather','Tiểu thuyết','Mario Puzo','https://cf.shopee.vn/file/7f19d895987d647c11337cfea56be7ac','Nhà Xuất Bản Văn Học',534,150000);
+INSERT INTO Book VALUES (201,0439708184,'Harry Potter Và Hòn Đá Phù Thủy - Tập 1','Tiểu thuyết','J.K. Rowling','https://cf.shopee.vn/file/aa7b36f4431bd5c921fc642103936108','Nhà Xuất Bản Trẻ',366,121500);
+INSERT INTO Book VALUES (202,9786041185388,'Harry Potter Và Phòng Chứa Bí Mật - Tập 2','Tiểu thuyết','J.K. Rowling','https://salt.tikicdn.com/cache/w1200/ts/product/55/a9/34/ce4848cc4700049bd7c70512b2238121.jpg','Nhà Xuất Bản Trẻ',430,144000);
+INSERT INTO Book VALUES (203,8934974179658,'Harry Potter Và Tên Tù Nhân Ngục Azkaban - Tập 3','Tiểu thuyết','J.K. Rowling','https://salt.tikicdn.com/media/catalog/product/h/a/harry-potter.u5102.d20170425.t095624.709837.jpg','Nhà Xuất Bản Trẻ',560,173000);
+INSERT INTO Book VALUES (204,9786041198814,'Harry Potter Và Chiếc Cốc Lửa - Tập 4','Tiểu thuyết','J.K. Rowling','https://static.ybox.vn/2020/10/6/1604152686481-nxbtre_full_20342017_033410.u4972.d20170426.t163428.208230.jpg','Nhà Xuất Bản Trẻ',516,248000);
+INSERT INTO Book VALUES (205,8934974148722,'Harry Potter Và Hội Phượng Hoàng - Tập 5','Tiểu thuyết','J.K. Rowling','https://www.nxbtre.com.vn/Images/Book/nxbtre_full_08082017_090848.jpg','Nhà Xuất Bản Trẻ',1310,319500);
+INSERT INTO Book VALUES (206,8934974149590,'Harry Potter Và Hoàng Tử Lai - Tập 6','Tiểu thuyết','J.K. Rowling','https://sg-test-11.slatic.net/p/dcb5550aae0c221205c2afd05732a2a1.jpg','Nhà Xuất Bản Trẻ',716,215000);
+INSERT INTO Book VALUES (207,8934974149606,'Harry Potter Và Bảo Bối Tử Thần - Tập 7','Tiểu thuyết','J.K. Rowling','https://www.nxbtre.com.vn/Images/Book/nxbtre_full_11592017_085924.jpg','Nhà Xuất Bản Trẻ',846,196000);
+INSERT INTO Book VALUES (208,9781435154704,'Peter Pan','Tiểu thuyết','J. M. Barrie','https://salt.tikicdn.com/cache/w1200/ts/product/f0/1e/e0/19de8b8448fa2618c548367b22d35784.jpg','Barnes & Noble Inc',199,579500);
+
