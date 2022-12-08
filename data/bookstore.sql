@@ -63,8 +63,6 @@ create table Bill--done
     constraint PK_Customer primary key (B_ID)
 );
 
-);
-
 --------------Khoa ngoai ----------------------
 ALTER TABLE Employee
     ADD (
