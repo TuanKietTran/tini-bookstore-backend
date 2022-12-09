@@ -1,19 +1,16 @@
 version: '3'
 services:
   db:
-    image: mysql
-    command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+    image: postgres:15-alpine
     volumes:
       - ./data:/docker-entrypoint-initdb.d/:ro
     ports:
-      - '3306:3306'
+      - '5432:5432'
     environment:
-      LANG: C.UTF-8
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: bookstore
-      MYSQL_PASSWORD: password
-  adminer:  
-    image: adminer
-    restart: always
-    ports:
-      - 8080:8080
+      POSTGRES_USER: dev
+      POSTGRES_PASSWORD: password
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U dev']
+      interval: 5s
+      timeout: 5s
+      retries: 5

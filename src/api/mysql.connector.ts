@@ -1,45 +1,15 @@
-import { createPool, Pool} from 'mysql';
+import { Pool } from 'pg';
 import * as dotenv from "dotenv";
 dotenv.config();
 
-let pool: Pool;
+const pool = new Pool({ connectionString: process.env.CONNECTION_STRING });
 
-export const init = () => {
-  try {
-    pool = createPool({
-      host: process.env.DB_HOST,
-      user: process.env.DB_USER,
-      password: process.env.DB_PWD,
-      database: process.env.DB_NAME,
-    });
+pool.on('connect', () => {
+  console.log('Success!');
+});
 
-    console.debug('MySql Adapter Pool generated successfully');
-  } catch (error) {
-    console.error('[mysql.connector][init][Error]: ', error);
-    throw new Error('failed to initialized pool');
-  }
-};
-
-/**
- * executes SQL queries in MySQL db
- *
- * @param {string} query - provide a valid SQL query
- * @param {string[] | Object} params - provide the parameterized values used
- * in the query
- */
-export const execute = <T>(query: string, params: string[] | Object): Promise<T> => {
-  try {
-    if (!pool) throw new Error('Pool was not created. Ensure pool is created when running the app.');
-
-    return new Promise<T>((resolve, reject) => {
-      pool.query(query, params, (error, results) => {
-        if (error) reject(error);
-        else resolve(results);
-      });
-    });
-
-  } catch (error) {
-    console.error('[mysql.connector][execute][Error]: ', error);
-    throw new Error('failed to execute MySQL query');
-  }
+function query(text: string, params: any[]) {
+  return pool.query(text, params);
 }
+
+export default query;

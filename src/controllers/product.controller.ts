@@ -3,11 +3,11 @@ import * as ProductService from '../services/product.service';
 
 export const getProduct: RequestHandler = async (req: Request, res: Response) => {
   try {
-    const products = await ProductService.getProduct();
+    const products = await (await ProductService.getProduct()).rows;
 
-    res.status(200).json({
+    res.status(200).json(
       products
-    });
+    );
   } catch (error) {
     console.error('[product.controller][getProduct][Error] ', typeof error === 'object' ? JSON.stringify(error) : error);
     res.status(500).json({
@@ -18,11 +18,11 @@ export const getProduct: RequestHandler = async (req: Request, res: Response) =>
 
 export const getProductById: RequestHandler = async (req: Request, res: Response) => {
   try {
-    const products = await ProductService.getProductById(req.params.id);
+    const products = await (await ProductService.getProductById(req.params.id)).rows[0];
 
-    res.status(200).json({
+    res.status(200).json(
       products
-    });
+    );
   } catch (error) {
     console.error('[product.controller][getProduct][Error] ', typeof error === 'object' ? JSON.stringify(error) : error);
     res.status(500).json({
@@ -33,11 +33,11 @@ export const getProductById: RequestHandler = async (req: Request, res: Response
 
 export const getProductByName: RequestHandler = async (req: Request, res: Response) => {
   try {
-    const products = await ProductService.getProductById(req.params.name);
+    const products = await (await ProductService.getProductById(req.params.name)).rows;
 
-    res.status(200).json({
+    res.status(200).json(
       products
-    });
+    );
   } catch (error) {
     console.error('[product.controller][getProduct][Error] ', typeof error === 'object' ? JSON.stringify(error) : error);
     res.status(500).json({
@@ -48,11 +48,11 @@ export const getProductByName: RequestHandler = async (req: Request, res: Respon
 
 export const getBook: RequestHandler = async (req: Request, res: Response) => {
   try {
-    const products = await ProductService.getBook();
+    const products = await (await ProductService.getBook()).rows;
 
-    res.status(200).json({
+    res.status(200).json(
       products
-    });
+    );
   } catch (error) {
     console.error('[product.controller][getProduct][Error] ', typeof error === 'object' ? JSON.stringify(error) : error);
     res.status(500).json({
@@ -63,11 +63,11 @@ export const getBook: RequestHandler = async (req: Request, res: Response) => {
 
 export const getBookById: RequestHandler = async (req: Request, res: Response) => {
   try {
-    const products = await ProductService.getBookById(req.params.id);
+    const products = await (await ProductService.getBookById(req.params.id)).rows[0];
 
-    res.status(200).json({
+    res.status(200).json(
       products
-    });
+    );
   } catch (error) {
     console.error('[product.controller][getProduct][Error] ', typeof error === 'object' ? JSON.stringify(error) : error);
     res.status(500).json({
@@ -78,11 +78,11 @@ export const getBookById: RequestHandler = async (req: Request, res: Response) =
 
 export const getStationery: RequestHandler = async (req: Request, res: Response) => {
   try {
-    const products = await ProductService.getStationery();
+    const products = await (await ProductService.getStationery()).rows;
 
-    res.status(200).json({
+    res.status(200).json(
       products
-    });
+    );
   } catch (error) {
     console.error('[product.controller][getProduct][Error] ', typeof error === 'object' ? JSON.stringify(error) : error);
     res.status(500).json({
@@ -93,11 +93,11 @@ export const getStationery: RequestHandler = async (req: Request, res: Response)
 
 export const getStationeryById: RequestHandler = async (req: Request, res: Response) => {
   try {
-    const products = await ProductService.getStationeryById(req.params.id);
+    const products = await (await ProductService.getStationeryById(req.params.id)).rows[0];
 
-    res.status(200).json({
+    res.status(200).json(
       products
-    });
+    );
   } catch (error) {
     console.error('[product.controller][getProduct][Error] ', typeof error === 'object' ? JSON.stringify(error) : error);
     res.status(500).json({

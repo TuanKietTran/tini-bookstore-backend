@@ -1,31 +1,33 @@
-import { execute } from "../api/mysql.connector"
+
+
+import query from "../api/mysql.connector";
 import { Product } from "../models/product"
 import { BookQueries, ProductQueries, StationeryQueries } from "../models/product.queries";
 
 export const getProduct = async () => {
-  return execute<Product>(ProductQueries.getProduct, []);
+  return await query(ProductQueries.getProduct, []);
 }
 
 export const getProductById = async (id : string) => {
-  return execute<Product>(ProductQueries.getProductById, [id]);
+  return query(ProductQueries.getProductById, [id]);
 }
 
 export const getProductByName = async (name : string) => {
-  return execute<Product>(ProductQueries.getProductByName, [name]);
+  return query(ProductQueries.getProductByName, [name]);
 }
 
 export const getBook = async () => {
-  return execute<Product>(BookQueries.getBook, []);
+  return query(BookQueries.getBook, []);
 }
 
 export const getBookById = async (id : string) => {
-  return execute<Product>(BookQueries.getBookById, [id]);
+  return query(BookQueries.getBookById, [id]);
 }
 
 export const getStationery = async () => {
-  return execute<Product>(StationeryQueries.getStationery, []);
+  return query(StationeryQueries.getStationery, []);
 }
 
 export const getStationeryById = async (id : string) => {
-  return execute<Product>(StationeryQueries.getStationeryById, [id]);
+  return query(StationeryQueries.getStationeryById, [id]);
 }

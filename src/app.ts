@@ -20,8 +20,6 @@ app.use(helmet());
 // enable all CORS request
 app.use(cors());
 
-// create database pool
-MySQLConnector.init();
 
 app.set("port", process.env.PORT || 3000);
 
