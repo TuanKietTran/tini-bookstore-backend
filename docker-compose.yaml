@@ -2,16 +2,18 @@ version: '3'
 services:
   db:
     image: mysql
+    command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
     volumes:
       - ./data:/docker-entrypoint-initdb.d/:ro
     ports:
       - '3306:3306'
     environment:
+      LANG: C.UTF-8
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: bookstore
       MYSQL_PASSWORD: password
-  adminer:
+  adminer:  
     image: adminer
     restart: always
     ports:
-      - 3300:3300
+      - 8080:8080
