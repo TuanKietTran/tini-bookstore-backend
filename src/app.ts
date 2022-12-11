@@ -11,6 +11,7 @@ import { errorHandler, errorNotFoundHandler } from "./middlewares/errorHandler";
 // Routes
 import { index } from "./routes/index";
 import { product } from "./routes/product"
+import { bill } from "./routes/bill"
 // Create Express server
 export const app = express();
 
@@ -32,6 +33,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use("/", index);
 app.use("/product", product);
+app.use("/bill", bill);
 
 app.use(errorNotFoundHandler);
 app.use(errorHandler);
