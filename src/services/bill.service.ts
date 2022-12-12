@@ -1,5 +1,5 @@
 import query from "../api/mysql.connector";
-import { Bill } from "../models/bill";
+import Bill from "../models/bill";
 import { BillQueries } from "../models/bill.queries";
 
 function toArray(bill: Bill) {

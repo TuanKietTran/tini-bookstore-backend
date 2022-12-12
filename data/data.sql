@@ -122,109 +122,58 @@ VALUES ('000209','Balo Toetalk Student Backpack',500000,0.1,100,'https://lzd-img
 INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
 VALUES ('000210','Balo Yame',350000,0.2,300,'https://cdn2.yame.vn/pimg/balo-a-cyberpunk-ver1-0020085/bff24ae7-0076-3000-ea36-0018cfe40a87.jpg?w=540&h=756','balo');
 
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000150','5612314',2022,'Nhà Xuất Bản Thanh Niên');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000151','7123546',2021,'Nhà Xuất Bản Thanh Niên');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000152','8413456',2021,'Nhà Xuất Bản Văn Học');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000153', '8794502', 2020, 'Nhà Xuất Bản Hà Nội');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000154','4564585',2020,'Nhà Xuất Bản Đồng Nai');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000155', '9545351', 2019, 'Nhà Xuất Bản Phụ Nữ');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000156','8546512',2018,'Nhà Xuất Bản Hội Nhà Văn');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000157','3215443',2021,'Nhà Xuất Bản Thế Giới');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000158','5486214',2020,'Nhà Xuất Bản Phụ Nữ Việt Nam');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000159', '4562143', 2021, 'Nhà Xuất Bản Hà Nội');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000160','7313015',2022,'Nhà Xuất Bản Thế Giới');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000161','4648941',2022,'Nhà Xuất Bản Lao Động');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000162','4562314',2022,'Nhà Xuất Bản Hồng Đức');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000163','4310435',2018,'Nhà Xuất Bản Dân Trí');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000164', '5784654', 2022, 'Nhà Xuất Bản Hà Nội');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000165','8975413',2022,'Nhà Xuất Bản Đại Học Quốc Gia Hà Nội');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000166','1567984',2022,'Nhà Xuất Bản Thông Tấn');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000167', '0534587', 2022, 'Nhà Xuất Bản Hà Nội');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000168','4564214',2017,'Nhà Xuất Bản Nhã Nam');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000169','1544858',2022,'Nhà Xuất Bản Phụ Nữ Việt Nam');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000170','4578945',2021,'Nhà Xuất Bản Kim Đồng');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000171','9840544',2021,'Nhà Xuất Bản Kim Đồng');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000172','9564244',2021,'Nhà Xuất Bản Kim Đồng');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000173','0546484',2019,'Nhà Xuất Bản Kim Đồng');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000174','6486414',2019,'Nhà Xuất Bản Kim Đồng');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000175','9854264',2019,'Nhà Xuất Bản Kim Đồng');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000176','4546548',2019,'Nhà Xuất Bản Kim Đồng');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000177','4556315',2021,'Nhà Xuất Bản Kim Đồng');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000178','4532002',2021,'Nhà Xuất Bản Kim Đồng');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000179','4315464',2021,'Nhà Xuất Bản Kim Đồng');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000180','4564828',2021,'Nhà Xuất Bản Kim Đồng');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000181','5648483',2019,'Nhà Xuất Bản Kim Đồng');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000150', '5612314', 2022, 'Nhà Xuất Bản Thanh Niên', 'Choi Kwanghyun');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000151', '7123546', 2021, 'Nhà Xuất Bản Thanh Niên', 'Lý Thế Cường');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000152', '8413456', 2021, 'Nhà Xuất Bản Văn Học', 'Trương Học Vĩ');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000153', '8794502', 2020, 'Nhà Xuất Bản Hà Nội', 'Khương Nguy');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000154', '4564585', 2020, 'Nhà Xuất Bản Đồng Nai', 'Kim Yo Eun');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000155', '9545351', 2019, 'Nhà Xuất Bản Phụ Nữ', 'Albert Rutherford');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000156', '8546512', 2018, 'Nhà Xuất Bản Hội Nhà Văn', 'Rosie Nguyễn');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000157', '3215443', 2021, 'Nhà Xuất Bản Thế Giới', 'Cảnh Thiên');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000158', '5486214', 2020, 'Nhà Xuất Bản Phụ Nữ Việt Nam', 'Lư Tư Hạo');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000159', '4562143', 2021, 'Nhà Xuất Bản Hà Nội', 'Ashley Davis Bush');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000160', '7313015', 2022, 'Nhà Xuất Bản Thế Giới', 'Dr. Gareth Moore');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000161', '4648941', 2022, 'Nhà Xuất Bản Lao Động', 'Tinh Vân');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000162', '4562314', 2022, 'Nhà Xuất Bản Hồng Đức', 'Tuệ Chân - Lê Tiến Thành');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000163', '4310435', 2018, 'Nhà Xuất Bản Dân Trí', 'Koga Fumitake, Kishimi Ichiro');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000164', '5784654', 2022, 'Nhà Xuất Bản Hà Nội', 'Yagisawa Satoshi');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000165', '8975413', 2022, 'Nhà Xuất Bản Đại Học Quốc Gia Hà Nội', 'W. Somerset Maugham');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000166', '1567984', 2022, 'Nhà Xuất Bản Thông Tấn', 'Matt Haig');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000167', '0534587', 2022, 'Nhà Xuất Bản Hà Nội', 'Lee Miye');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000168', '4564214', 2017, 'Nhà Xuất Bản Nhã Nam', 'Guillaume Musso');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000169', '1544858', 2022, 'Nhà Xuất Bản Phụ Nữ Việt Nam', 'Nguyễn Phương Văn');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000170', '4578945', 2021, 'Nhà Xuất Bản Kim Đồng', 'Fujiko F Fujio');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000171', '9840544', 2021, 'Nhà Xuất Bản Kim Đồng', 'Fujiko F Fujio');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000172', '9564244', 2021, 'Nhà Xuất Bản Kim Đồng', 'Fujiko F Fujio');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000173', '0546484', 2019, 'Nhà Xuất Bản Kim Đồng', 'Fujiko F Fujio');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000174', '6486414', 2019, 'Nhà Xuất Bản Kim Đồng', 'Fujiko F Fujio');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000175', '9854264', 2019, 'Nhà Xuất Bản Kim Đồng', 'Fujiko F Fujio');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000176', '4546548', 2019, 'Nhà Xuất Bản Kim Đồng', 'Fujiko F Fujio');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000177', '4556315', 2021, 'Nhà Xuất Bản Kim Đồng', 'Fujiko F Fujio');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000178', '4532002', 2021, 'Nhà Xuất Bản Kim Đồng', 'Fujiko F Fujio');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000179', '4315464', 2021, 'Nhà Xuất Bản Kim Đồng', 'Fujiko F Fujio');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000180', '4564828', 2021, 'Nhà Xuất Bản Kim Đồng', 'Fujiko F Fujio');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000181', '5648483', 2019, 'Nhà Xuất Bản Kim Đồng', 'Gosho Aoyama');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000182', '8845345', 2019, 'Nhà Xuất Bản Kim Đồng', 'Gosho Aoyama');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000183', '4612348', 2019, 'Nhà Xuất Bản Kim Đồng', 'Gosho Aoyama');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000184', '1985454', 2019, 'Nhà Xuất Bản Kim Đồng', 'Gosho Aoyama');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000185', '9845612', 2019, 'Nhà Xuất Bản Kim Đồng', 'Gosho Aoyama');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000186', '9451255', 2019, 'Nhà Xuất Bản Kim Đồng', 'Gosho Aoyama');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000187', '1635643', 2019, 'Nhà Xuất Bản Kim Đồng', 'Gosho Aoyama');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000188', '4484642', 2019, 'Nhà Xuất Bản Kim Đồng', 'Gosho Aoyama');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000189', '4315465', 2019, 'Nhà Xuất Bản Kim Đồng', 'Gosho Aoyama');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000190', '9541241', 2019, 'Nhà Xuất Bản Kim Đồng', 'Gosho Aoyama');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000191', '1345122', 2019, 'Nhà Xuất Bản Kim Đồng', 'Gosho Aoyama');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000192', '0345685', 2019, 'Nhà Xuất Bản Kim Đồng', 'Gosho Aoyama');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000193', '4864615', 2019, 'Nhà Xuất Bản Kim Đồng', 'Gosho Aoyama');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000194', '8945574', 2019, 'Nhà Xuất Bản Kim Đồng', 'Gosho Aoyama');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000195', '3446124', 2019, 'Nhà Xuất Bản Kim Đồng', 'Gosho Aoyama');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000196', '4981462', 2019, 'Nhà Xuất Bản Kim Đồng', 'Gosho Aoyama');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000197', '3215461', 2019, 'Nhà Xuất Bản Kim Đồng', 'Gosho Aoyama');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000198', '9615437', 2019, 'Nhà Xuất Bản Kim Đồng', 'Gosho Aoyama');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000199', '1461843', 2019, 'Nhà Xuất Bản Kim Đồng', 'Gosho Aoyama');
+INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000200', '4578940', 2019, 'Nhà Xuất Bản Kim Đồng', 'Gosho Aoyama');
 
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000182','8845345',2019,'Nhà Xuất Bản Kim Đồng');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000183','4612348',2019,'Nhà Xuất Bản Kim Đồng');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000184','1985454',2019,'Nhà Xuất Bản Kim Đồng');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000185','9845612',2019,'Nhà Xuất Bản Kim Đồng');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000186','9451255',2019,'Nhà Xuất Bản Kim Đồng');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000187','1635643',2019,'Nhà Xuất Bản Kim Đồng');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000188','4484642',2019,'Nhà Xuất Bản Kim Đồng');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000189','4315465',2019,'Nhà Xuất Bản Kim Đồng');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000190','9541241',2019,'Nhà Xuất Bản Kim Đồng');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000191','1345122',2019,'Nhà Xuất Bản Kim Đồng');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000192','0345685',2019,'Nhà Xuất Bản Kim Đồng');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000193','4864615',2019,'Nhà Xuất Bản Kim Đồng');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000194','8945574',2019,'Nhà Xuất Bản Kim Đồng');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000195','3446124',2019,'Nhà Xuất Bản Kim Đồng');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000196','4981462',2019,'Nhà Xuất Bản Kim Đồng');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000197','3215461',2019,'Nhà Xuất Bản Kim Đồng');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000198','9615437',2019,'Nhà Xuất Bản Kim Đồng');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000199','1461843',2019,'Nhà Xuất Bản Kim Đồng');
-INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher)
-VALUES ('000200','4578940',2019,'Nhà Xuất Bản Kim Đồng');
 
 INSERT INTO Stationery (Stationery_UUID, Barcode, Distributor)
 VALUES ('000201', '8935001800347', 'Thiên Long');
