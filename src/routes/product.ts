@@ -10,5 +10,5 @@ product.get("/:name", controller.getProductByName);
 product.get("/book", controller.getBook);
 product.get("/book/:id", controller.getBookById);
 
-product.get("/book", controller.getStationery);
-product.get("/book/:id", controller.getStationeryById);
+product.get("/stationery", controller.getStationery);
+product.get("/stationery/:id", controller.getStationeryById);
