@@ -10,7 +10,7 @@ create table Product
 (
     UUID                CHAR(6) NOT NULL,
     P_Name              VARCHAR(300) NOT NULL,
-    Price               DECIMAL(10,2) NOT NULL,
+    Price               DECIMAL(10,0) NOT NULL,
     Discount            DECIMAL(2,2) NOT NULL,
     Amount              DECIMAL(10,0) NOT NULL,
     Cover               VARCHAR(300), 

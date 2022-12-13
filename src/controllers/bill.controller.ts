@@ -11,7 +11,7 @@ export const postBill: RequestHandler = async (req: Request, res: Response) => {
     req.body["b_status"],
     req.body["phone"],
     req.body["email"],
-    req.body["sustomer_name"],
+    req.body["customer_name"],
     req.body["payment_method"]
   );
 
