@@ -33,7 +33,8 @@ export const getProductById: RequestHandler = async (req: Request, res: Response
 
 export const getProductByName: RequestHandler = async (req: Request, res: Response) => {
   try {
-    const products = await (await ProductService.getProductById(req.params.name)).rows;
+    const query = req.query.q as string;
+    const products = await (await ProductService.getProductByName(query)).rows;
 
     res.status(200).json(
       products
