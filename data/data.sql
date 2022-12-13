@@ -206,15 +206,15 @@ INSERT INTO Product_type (Code, P_Description) VALUES
     ('2_but_bi', 'Bút bi');
 
 INSERT INTO Bill (b_id, B_time, City, District, StreetNum, B_Status, Phone, Email, Customer_name, Payment_method) VALUES
-	('d303bace-754a-4072-8874-6a7ce9d131e6', '18/03/2022 12:42', 'Hồ Chí Minh', 'Quận 1', '62 Nguyễn Huệ', 'Delivering', '0355749744', 'tranvana@gmail.com', 'Trần Văn A', 'Cash'),
-	('b754c482-b84f-46bf-831e-a41e0bab9421', '27/08/2022 16:01', 'Hồ Chí Minh', 'Quận 2', '70 Mai Chí Thọ', 'Completed', '0355749745', 'nguyenthib@gmail.com', 'Nguyễn Thị B', 'Cash'),
-	('e00e99b8-da64-408e-b866-58df3d7ae32d', '07/10/2022 8:23', 'Hồ Chí Minh', 'Quận 3', '40 Điện Biên Phủ', 'Pending', '0355749746', 'tranvanc@gmail.com', 'Trần Văn C', 'Cash'),
-	('07d746d9-d496-4d57-b96d-da88096c6617', '23/12/2021 2:18', 'Hồ Chí Minh', 'Quận 4', '20 Nguyễn Tất Thành', 'Aborted', '0355749747', 'nguyenthid@gmail.com', 'Nguyễn Thị D', 'Cash'),
-	('f4545501-50ac-4dc0-a601-076a2c233b86', '14/09/2022 22:27', 'Hồ Chí Minh', 'Quận 5', '10 Nguyễn Văn Cừ', 'Delivering', '0355749748', 'tranvane@gmail.com', 'Trần Văn E', 'Banking'),
-	('ea1fa864-672a-40c6-a9d3-0200339b6868', '25/03/2022 12:17', 'Hồ Chí Minh', 'Quận 6', '62 Hồng Bàng', 'Completed', '0355749749', 'nguyenthig@gmail.com', 'Nguyễn Thị G', 'Banking'),
-	('7adb9803-62ed-442d-8e2a-8db59aaed31d', '17/10/2021 18:49', 'Hồ Chí Minh', 'Quận 7', '29 Huỳnh Tấn Phát', 'Pending', '0355749750', 'tranvanh@gmail.com', 'Trần Văn H', 'Banking'),
-	('d1aa84c0-fee3-423a-b6e4-014bb2155295', '14/06/2022 3:06', 'Hồ Chí Minh', 'Quận 8', '20 Phạm Hùng', 'Aborted', '0355749751', 'nguyenthip@gmail.com', 'Nguyễn Thị P', 'Banking'),
-	('e0e4a4e9-5ad0-421c-a6fb-337c7b6c11fa', '05/11/2021 21:38', 'Hồ Chí Minh', 'Quận 9', '30 Trần Khế Xương', 'Delivering', '0355749752', 'tranvant@gmail.com', 'Trần Văn T', 'Banking');
+	('d303bace-754a-4072-8874-6a7ce9d131e6', '18/03/2022 12:42', 'Hồ Chí Minh', 'Quận 1', '62 Nguyễn Huệ', 'Shipping', '0355749744', 'tranvana@gmail.com', 'Trần Văn A', 'Cash'),
+	('b754c482-b84f-46bf-831e-a41e0bab9421', '27/08/2022 16:01', 'Hồ Chí Minh', 'Quận 2', '70 Mai Chí Thọ', 'Done', '0355749745', 'nguyenthib@gmail.com', 'Nguyễn Thị B', 'Cash'),
+	('e00e99b8-da64-408e-b866-58df3d7ae32d', '07/10/2022 08:23', 'Hồ Chí Minh', 'Quận 3', '40 Điện Biên Phủ', 'Waiting', '0355749746', 'tranvanc@gmail.com', 'Trần Văn C', 'Cash'),
+	('07d746d9-d496-4d57-b96d-da88096c6617', '23/12/2021 02:18', 'Hồ Chí Minh', 'Quận 4', '20 Nguyễn Tất Thành', 'Cancelled', '0355749747', 'nguyenthid@gmail.com', 'Nguyễn Thị D', 'Cash'),
+	('f4545501-50ac-4dc0-a601-076a2c233b86', '14/09/2022 22:27', 'Hồ Chí Minh', 'Quận 5', '10 Nguyễn Văn Cừ', 'Shipping', '0355749748', 'tranvane@gmail.com', 'Trần Văn E', 'Banking'),
+	('ea1fa864-672a-40c6-a9d3-0200339b6868', '25/03/2022 12:17', 'Hồ Chí Minh', 'Quận 6', '62 Hồng Bàng', 'Done', '0355749749', 'nguyenthig@gmail.com', 'Nguyễn Thị G', 'Banking'),
+	('7adb9803-62ed-442d-8e2a-8db59aaed31d', '17/10/2021 18:49', 'Hồ Chí Minh', 'Quận 7', '29 Huỳnh Tấn Phát', 'Waiting', '0355749750', 'tranvanh@gmail.com', 'Trần Văn H', 'Banking'),
+	('d1aa84c0-fee3-423a-b6e4-014bb2155295', '14/06/2022 03:06', 'Hồ Chí Minh', 'Quận 8', '20 Phạm Hùng', 'Cancelled', '0355749751', 'nguyenthip@gmail.com', 'Nguyễn Thị P', 'Banking'),
+	('e0e4a4e9-5ad0-421c-a6fb-337c7b6c11fa', '05/11/2021 21:38', 'Hồ Chí Minh', 'Quận 9', '30 Trần Khế Xương', 'Shipping', '0355749752', 'tranvant@gmail.com', 'Trần Văn T', 'Banking');
 
 INSERT INTO Included(Bill_ID,Product_UUID, Quantity)
 VALUES ('d303bace-754a-4072-8874-6a7ce9d131e6', '000198', '2'),

@@ -39,7 +39,7 @@ export const getProductByName: RequestHandler = async (req: Request, res: Respon
       products
     );
   } catch (error) {
-    console.error('[product.controller][getProduct][Error] ', typeof error === 'object' ? JSON.stringify(error) : error);
+    console.error('[product.controller][getProductByName][Error] ', typeof error === 'object' ? JSON.stringify(error) : error);
     res.status(500).json({
       message: 'There was an error when fetching product'
     });
@@ -55,7 +55,7 @@ export const getBook: RequestHandler = async (req: Request, res: Response) => {
       books
     );
   } catch (error) {
-    console.error('[product.controller][getProduct][Error] ', typeof error === 'object' ? JSON.stringify(error) : error);
+    console.error('[product.controller][getBook][Error] ', typeof error === 'object' ? JSON.stringify(error) : error);
     res.status(500).json({
       message: 'There was an error when fetching product'
     });
@@ -70,7 +70,7 @@ export const getBookById: RequestHandler = async (req: Request, res: Response) =
       book
     );
   } catch (error) {
-    console.error('[product.controller][getProduct][Error] ', typeof error === 'object' ? JSON.stringify(error) : error);
+    console.error('[product.controller][getBookById][Error] ', typeof error === 'object' ? JSON.stringify(error) : error);
     res.status(500).json({
       message: 'There was an error when fetching product'
     });
@@ -85,7 +85,7 @@ export const getStationery: RequestHandler = async (req: Request, res: Response)
       stationeries
     );
   } catch (error) {
-    console.error('[product.controller][getProduct][Error] ', typeof error === 'object' ? JSON.stringify(error) : error);
+    console.error('[product.controller][getStationery][Error] ', typeof error === 'object' ? JSON.stringify(error) : error);
     res.status(500).json({
       message: 'There was an error when fetching product'
     });
@@ -100,7 +100,7 @@ export const getStationeryById: RequestHandler = async (req: Request, res: Respo
       stationery
     );
   } catch (error) {
-    console.error('[product.controller][getProduct][Error] ', typeof error === 'object' ? JSON.stringify(error) : error);
+    console.error('[product.controller][getStationeryById][Error] ', typeof error === 'object' ? JSON.stringify(error) : error);
     res.status(500).json({
       message: 'There was an error when fetching product'
     });
