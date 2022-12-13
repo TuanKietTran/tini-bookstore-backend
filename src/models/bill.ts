@@ -1,6 +1,20 @@
 import { randomUUID } from 'crypto';
 
 
+
+export class Include {
+  public b_id: string;
+  public p_id: string;
+  public amount: number;
+
+  constructor(bid: string, pid: string, amount: number) {
+    this.b_id = bid;
+    this.p_id = pid;
+    this.amount = amount;
+  }
+};
+
+
 class Bill {
   public b_id: string;
   public B_time: string; 

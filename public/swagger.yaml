@@ -70,7 +70,7 @@ paths:
           description: Created
         401:
           $ref: "#/components/responses/UnauthorizedError"
-  product/book:
+  book:
     get:
       tags:
         - Product
