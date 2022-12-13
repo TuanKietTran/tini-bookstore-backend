@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es2017",
     "module": "commonjs",
-    "lib": ["DOM", "ES2016"],
+    "lib": ["DOM", "ES2022"],
     "allowJs": true,
     "checkJs": true,
     "sourceMap": true,
