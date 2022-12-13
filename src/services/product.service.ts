@@ -9,25 +9,25 @@ export const getProduct = async () => {
 }
 
 export const getProductById = async (id : string) => {
-  return query(ProductQueries.getProductById, [id]);
+  return await query(ProductQueries.getProductById, [id]);
 }
 
 export const getProductByName = async (name : string) => {
-  return query(ProductQueries.getProductByName, [name]);
+  return await query(ProductQueries.getProductByName, [name]);
 }
 
 export const getBook = async () => {
-  return query(BookQueries.getBook, []);
+  return await query(BookQueries.getBook, []);
 }
 
 export const getBookById = async (id : string) => {
-  return query(BookQueries.getBookById, [id]);
+  return await query(BookQueries.getBookById, [id]);
 }
 
 export const getStationery = async () => {
-  return query(StationeryQueries.getStationery, []);
+  return await query(StationeryQueries.getStationery, []);
 }
 
 export const getStationeryById = async (id : string) => {
-  return query(StationeryQueries.getStationeryById, [id]);
+  return await query(StationeryQueries.getStationeryById, [id]);
 }

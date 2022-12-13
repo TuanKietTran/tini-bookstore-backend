@@ -6,9 +6,3 @@ export const product = Router();
 product.get("/", controller.getProduct);
 product.get("/:id", controller.getProductById);
 product.get("/:name", controller.getProductByName);
-
-product.get("/book", controller.getBook);
-product.get("/book/:id", controller.getBookById);
-
-product.get("/stationery", controller.getStationery);
-product.get("/stationery/:id", controller.getStationeryById);

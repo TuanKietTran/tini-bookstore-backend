@@ -24,6 +24,7 @@ create table Book
     IBSN                CHAR(7),
     Publishing_year     INT,
     Publisher           VARCHAR(300),
+    Authors             VARCHAR(300),
     constraint PK_BOOK primary key (Book_UUID)
 );
 

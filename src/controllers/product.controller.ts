@@ -48,10 +48,11 @@ export const getProductByName: RequestHandler = async (req: Request, res: Respon
 
 export const getBook: RequestHandler = async (req: Request, res: Response) => {
   try {
-    const products = await (await ProductService.getBook()).rows;
+    console.log("book");
+    const books = await (await ProductService.getBook()).rows;
 
     res.status(200).json(
-      products
+      books
     );
   } catch (error) {
     console.error('[product.controller][getProduct][Error] ', typeof error === 'object' ? JSON.stringify(error) : error);
@@ -63,10 +64,10 @@ export const getBook: RequestHandler = async (req: Request, res: Response) => {
 
 export const getBookById: RequestHandler = async (req: Request, res: Response) => {
   try {
-    const products = await (await ProductService.getBookById(req.params.id)).rows[0];
+    const book = await (await ProductService.getBookById(req.params.id)).rows[0];
 
     res.status(200).json(
-      products
+      book
     );
   } catch (error) {
     console.error('[product.controller][getProduct][Error] ', typeof error === 'object' ? JSON.stringify(error) : error);
@@ -78,10 +79,10 @@ export const getBookById: RequestHandler = async (req: Request, res: Response) =
 
 export const getStationery: RequestHandler = async (req: Request, res: Response) => {
   try {
-    const products = await (await ProductService.getStationery()).rows;
+    const stationeries = await (await ProductService.getStationery()).rows;
 
     res.status(200).json(
-      products
+      stationeries
     );
   } catch (error) {
     console.error('[product.controller][getProduct][Error] ', typeof error === 'object' ? JSON.stringify(error) : error);
@@ -93,10 +94,10 @@ export const getStationery: RequestHandler = async (req: Request, res: Response)
 
 export const getStationeryById: RequestHandler = async (req: Request, res: Response) => {
   try {
-    const products = await (await ProductService.getStationeryById(req.params.id)).rows[0];
+    const stationery = await (await ProductService.getStationeryById(req.params.id)).rows[0];
 
     res.status(200).json(
-      products
+      stationery
     );
   } catch (error) {
     console.error('[product.controller][getProduct][Error] ', typeof error === 'object' ? JSON.stringify(error) : error);

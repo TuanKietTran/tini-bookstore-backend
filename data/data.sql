@@ -1,126 +1,125 @@
-﻿
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000150','Tâm lý học mối quan hệ',71000,0.1,100,'https://salt.tikicdn.com/cache/w1200/ts/Product/0a/15/ea/4e181a1dcfd2d16840c1fe242b914ba1.png','sach_tam_ly');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000151','Ám Ảnh Sợ Xã Hội - Chạy Trốn Hay Đối Mặt',89900,0.1,200,'70d281ef74f6976194bdce448bbabeb1.jpg (1200×1730) (tikicdn.com)','sach_ky_nang');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000152','Ổn Định Hay Tự Do',94100,0.1,300,'f029ab00ae124fca88412f5cc0e36700.jpg (1200×1200) (tikicdn.com)','sach_ky_nang');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000153','Tâm Lý Học Hành Vi',73400,0.1,400,'a9f929f98397d1be047e47602989a5e0.jpg (1200×1200) (tikicdn.com)','sach_ky_nang');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000154','Đừng Cố Làm Người Tốt Trong Mắt Tất Cả Mọi Người',93000,0.1,500,'f9f68445f5c917152d6be847953facd5.jpg (1200×1200) (tikicdn.com)','sach_ky_nang');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000155','Rèn Luyện Tư Duy Phản Biện',59000,0.1,600,'524a27dcd45e8a13ae6eecb3dfacba7c.jpg (1200×1200) (tikicdn.com)','sach_ky_nang');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000156','Tuổi Trẻ Đáng Giá Bao Nhiêu',61200,0.1,700,'5fbf2a6f9d07b76d98e2fff2b29b0d3c.jpg (1200×1200) (tikicdn.com)','sach_ky_nang');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000157','Đừng Lựa Chọn An Nhàn Khi Còn Trẻ',68000,0.1,800,'8db57c8fd3685e41109da91542dae1d5.jpg.webp (750×750) (tikicdn.com)','sach_ky_nang');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000158','Trời Sinh Vụng Về, Hãy Bù Đắp Bằng Sự Kiên Trì',92400,0.1,900,'d90504644a26715758f68aa20eebbde5.jpg.webp (750×750) (tikicdn.com)','sach_ky_nang');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000159','Tôi Không Thích Ồn Ào',57000,0.1,1000,'28b2b8e945464020bef3ebc4ef96332a.jpg.webp (750×750) (tikicdn.com)','sach_ky_nang');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000160','100+ Bài Tập Kích Thích Não Bộ Hiệu Quả 40 Ngày Luyện Trí Nhớ',77400,0.1,1100,'df57f39662a1fbce05f4491d2dddb562.jpg.webp (750×750) (tikicdn.com)','sach_ky_nang');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000161','Lựa chọn trong tỉnh thức tập 6 - Ranh giới giữa mê và ngộ',146000,0.1,1200,'ee2bbae4cfd64cd0cb59f1db276957e5.png.webp (750×750) (tikicdn.com)','sach_ky_nang');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000162','Lịch Pháp Và Những Ngày Tốt Trong Năm 2021 - 2030',132000,0.1,1300,'a191fafca2a3faff76ee1de6637d62ce.jpg.webp (750×750) (tikicdn.com)','sach_ky_nang');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000163','Dám Bị Ghét',71200,0.1,1400,'941af8f7b8fd8b43cf8931b551fa9d54.jpg.webp (750×750) (tikicdn.com)','sach_ky_nang');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000164','Những Giấc Mơ Ở Hiệu Sách Morisaki',62000,0.2,200,'03c0c61cea0582a3845944a31dbbdc7f.jpg.webp (750×750) (tikicdn.com)','tieu_thuyet');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000165','Tấm mạng hoa',164500,0.2,180,'d8a7b084d2bab9c563b6482f90516407.jpg.webp (750×750) (tikicdn.com)','tieu_thuyet');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000166','Làm sao dừng lại thời gian',143000,0.2,160,'fab1bdde0318dec16055cd26ed10096a.jpg.webp (750×750) (tikicdn.com)','tieu_thuyet');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000167','Bách hóa giấc mơ của ngài Dollargut',97600,0.2,140,'b519b25ad3ffda25420263f404a790f8.jpg.webp (750×750) (tikicdn.com)','tieu_thuyet');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000168','Cô Gái Trong Trang Sách',114000,0.2,120,'5bfe08e21ef3b8f99110feb745e27da1.jpg.webp (750×750) (tikicdn.com)','tieu_thuyet');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000169','Mặt Trời Trong Suối Lạnh',83000,0.2,100,'03db850b858cd137e0f3bab0284f624e.jpg.webp (750×750) (tikicdn.com)','tieu_thuyet');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000170','Doraemon Truyện ngắn tập 1',18000,0.3,485,'7259bd245d88fbd97ddc686705eec385.jpg.webp (750×750) (tikicdn.com)','truyen_tranh');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000171','Doraemon Truyện ngắn tập 2',18000,0.3,496,'doraemon-truyen-ngan-tap-2-k0cmp_6bb7427ce83c474480e111b85cf3128e_master.jpg (600×944) (hstatic.net)','truyen_tranh');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000172','Doraemon Truyện ngắn tập 3',18000,0.3,507,'1ca8a60bc9e6d21cdecd337b1e53722c.jpg.webp (750×750) (tikicdn.com)','truyen_tranh');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000173','Doraemon Truyện ngắn tập 4',18000,0.3,518,'c1787ee8cb8d80fd80493e27530e02aa.jpg.webp (750×750) (tikicdn.com)','truyen_tranh');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000174','Doraemon Truyện ngắn tập 5',18000,0.3,529,'0584d8e0a0bae5c46ee37547ea7585a7.jpg.webp (750×750) (tikicdn.com)','truyen_tranh');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000175','Doraemon Truyện ngắn tập 6',18000,0.3,540,'18af4eda1a2873585aefcb923445e696.jpg.webp (750×750) (tikicdn.com)','truyen_tranh');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000176','Doraemon Truyện ngắn tập 7',18000,0.3,551,'b6163bd564482fa3632d0752154b99a6.jpg.webp (750×750) (tikicdn.com)','truyen_tranh');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000177','Doraemon Truyện ngắn tập 8',18000,0.3,562,'5df6277a77222b57f11558feca32452b.jpg.webp (750×750) (tikicdn.com)','truyen_tranh');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000178','Doraemon Truyện ngắn tập 9 ',18000,0.3,573,'1801cc484df62012dd327ce9b024f7bf.jpg.webp (750×750) (tikicdn.com)','truyen_tranh');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000179','Doraemon Truyện ngắn tập 10',18000,0.3,584,'0fc7b543ed621ade24b9d8e0084d9ac9.jpg.webp (750×750) (tikicdn.com)','truyen_tranh');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000180','Doraemon Truyện ngắn tập 11',18000,0.3,595,'3981688dabb62f9c71b4daccc85fa1af.jpg.webp (750×750) (tikicdn.com)','truyen_tranh');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000181','Thám Tử Lừng Danh Conan - Tập 1',20000,0.3,606,'b7232b49f02582eb09ce168bc05b9432.jpg.webp (750×750) (tikicdn.com)','truyen_tranh');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000182','Thám Tử Lừng Danh Conan - Tập 2',20000,0.3,617,'f5411a154e4caa39d5e5608a06030ebe.jpg.webp (750×750) (tikicdn.com)','truyen_tranh');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000183','Thám Tử Lừng Danh Conan - Tập 3',20000,0.3,628,'d38bcf96f7eb032e02d2da9b92f2bafd.jpg.webp (750×750) (tikicdn.com)','truyen_tranh');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000184','Thám Tử Lừng Danh Conan - Tập 4',20000,0.3,639,'aa679f58e8732c7df495a3672bae983c.jpg.webp (750×750) (tikicdn.com)','truyen_tranh');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000185','Thám Tử Lừng Danh Conan - Tập 5',20000,0.3,650,'https://salt.tikicdn.com/cache/750x750/ts/Product/91/54/29/affd1287ac61d9204a6afb5a8083aac4.jpg.webp','truyen_tranh');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000186','Thám Tử Lừng Danh Conan - Tập 6',20000,0.3,661,'https://salt.tikicdn.com/cache/750x750/ts/Product/00/f5/ce/2ad6d03a95028dc212745e66f8203b7d.jpg.webp','truyen_tranh');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000187','Thám Tử Lừng Danh Conan - Tập 7',20000,0.3,672,'https://salt.tikicdn.com/cache/750x750/ts/Product/32/8d/63/3a569ecaf7f12f990368a3819b569405.jpg.webp','truyen_tranh');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000188','Thám Tử Lừng Danh Conan - Tập 8',20000,0.3,683,'https://salt.tikicdn.com/cache/750x750/ts/Product/7f/ae/ef/fd2215e9b2ae86b470172aa218ed2ebb.jpg.webp','truyen_tranh');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000189','Thám Tử Lừng Danh Conan - Tập 9',20000,0.3,694,'https://salt.tikicdn.com/cache/750x750/ts/Product/44/80/a7/1e43d859659fed7b42a8d000e0773911.jpg.webp','truyen_tranh');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000190','Thám Tử Lừng Danh Conan - Tập 10',20000,0.3,705,'https://salt.tikicdn.com/cache/750x750/ts/Product/f5/80/1e/6820f2e70b9018f552678845a8615a03.jpg.webp','truyen_tranh');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000191','Thám Tử Lừng Danh Conan - Tập 11',20000,0.3,716,'https://salt.tikicdn.com/cache/750x750/ts/Product/9b/52/2d/cb618671d0b94cf25600e54d97a15b60.jpg.webp','truyen_tranh');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000192','Thám Tử Lừng Danh Conan - Tập 12',20000,0.3,727,'https://salt.tikicdn.com/cache/750x750/ts/Product/21/dd/dd/9b2ca3997da530dfef61d57f7b74d685.jpg.webp','truyen_tranh');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000193','Thám Tử Lừng Danh Conan - Tập 13',20000,0.3,731,'https://salt.tikicdn.com/cache/750x750/ts/Product/5d/97/c2/9d4850420d465c8dd49a08def8ee348e.jpg.webp','truyen_tranh');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000194','Thám Tử Lừng Danh Conan - Tập 14',20000,0.3,738,'https://salt.tikicdn.com/cache/750x750/ts/Product/b3/96/f7/0fa66cd4a5213f54b8f502b570dc8dba.jpg.webp','truyen_tranh');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000195','Thám Tử Lừng Danh Conan - Tập 15',20000,0.3,749,'https://salt.tikicdn.com/cache/750x750/ts/Product/0d/78/b8/1e93c465dacb1ad47a67a92829fd2287.jpg.webp','truyen_tranh');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000196','Thám Tử Lừng Danh Conan - Tập 16',20000,0.3,760,'https://salt.tikicdn.com/cache/750x750/ts/Product/23/86/5a/56b31bffdd35bb64af93c0bb42a28432.jpg.webp','truyen_tranh');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000197','Thám Tử Lừng Danh Conan - Tập 17',20000,0.3,771,'https://Product.hstatic.net/200000343865/Product/17_21_451b0c045ce649e1bcfdd8e4c6cecd72_master.jpg','truyen_tranh');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000198','Thám Tử Lừng Danh Conan - Tập 18',20000,0.3,782,'https://salt.tikicdn.com/cache/750x750/ts/Product/cf/7f/cb/3d8f8ef6171c3362668681483549a230.jpg.webp','truyen_tranh');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000199','Thám Tử Lừng Danh Conan - Tập 19',20000,0.3,793,'https://salt.tikicdn.com/cache/750x750/ts/Product/1a/5e/7c/9c60aff3c1f96da91340e27acbb6acf1.jpg.webp','truyen_tranh');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000200','Thám Tử Lừng Danh Conan - Tập 20',20000,0.3,804,'https://salt.tikicdn.com/cache/750x750/ts/Product/64/c8/32/79836a412ff774e8a8e1ef0de2edf9e6.jpg.webp','truyen_tranh');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000201','Bút bi TL-27 Xanh dương',5000,0.1,20000,'https://bizweb.dktcdn.net/100/376/170/Products/f393aab7-ce63-4486-b6a8-60f449da1e79.jpg?v=1642331690667','but_bi');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000202','Bút bi TL-79 Xanh dương',6000,0.1,20000,'https://bizweb.dktcdn.net/thumb/1024x1024/100/379/648/Products/viet-bi-bam-tl-079-20c-h-l-1536295305-2-2.jpg','but_bi');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000203','Bút bi TL-27 Đỏ',5000,0.1,20000,'https://vanphongphamphukhiet.com/assets/van-phong-pham/027.jpg','but_bi');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000204','Bút bi TL-79 Đỏ',6000,0.1,20000,'https://bizweb.dktcdn.net/thumb/1024x1024/100/379/648/Products/viet-bi-bam-tl-079-20c-h-l-1536295305-2-do.jpg?v=1589188473203','but_bi');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000205','Tập học sinh 200 trang',8000,0.1,100000,'https://vn-live-01.slatic.net/p/a4d8479e6b028c9acd79a14c5c9a6bf1.jpg','so_tay');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000206','Sổ tay A4 200 trang',68000,0.1,1000,'https://vanphong-pham.com/wp-content/uploads/2022/02/so-lx.jpg','so_tay');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000207','Máy tính cầm tay Casio FX-570 VN PLUS',580000,0.1,500,'https://salt.tikicdn.com/ts/Product/22/b4/71/6f72811493314bff3789dd0551e40528.jpeg','mtct');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000208','Máy tính cầm tay Casio FX-580 VN PLUS',680000,0.2,320,'https://ngoclanvpp.vn/User_folder_upload/vppngoclan/files/may%20tinh%20Fx-580%20VN%20X.jpg','mtct');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000209','Balo Toetalk Student Backpack',500000,0.1,100,'https://lzd-img-global.slatic.net/g/p/05e9460ec04cc807f2b61e49af04d416.jpg_720x720q80.jpg_.webp','balo');
-INSERT INTO Product (UUID,P_name,Price,Discount,Amount,Cover,Product_type_code)
-VALUES ('000210','Balo Yame',350000,0.2,300,'https://cdn2.yame.vn/pimg/balo-a-cyberpunk-ver1-0020085/bff24ae7-0076-3000-ea36-0018cfe40a87.jpg?w=540&h=756','balo');
+﻿INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000150', 'Tâm lý học mối quan hệ', 71000.00, 0.10, 100, 'https://salt.tikicdn.com/cache/w1200/ts/product/0a/15/ea/4e181a1dcfd2d16840c1fe242b914ba1.png
+', 'sach_tam_ly');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000151', 'Ám Ảnh Sợ Xã Hội - Chạy Trốn Hay Đối Mặt', 89900.00, 0.10, 200, 'https://salt.tikicdn.com/cache/w1200/ts/product/8e/0a/47/70d281ef74f6976194bdce448bbabeb1.jpg
+', 'sach_ky_nang');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000152', 'Ổn Định Hay Tự Do', 94100.00, 0.10, 300, 'https://salt.tikicdn.com/cache/w1200/ts/product/6b/f4/a1/f029ab00ae124fca88412f5cc0e36700.jpg
+', 'sach_ky_nang');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000153', 'Tâm Lý Học Hành Vi', 73400.00, 0.10, 400, 'https://salt.tikicdn.com/cache/w1200/ts/product/cd/72/24/a9f929f98397d1be047e47602989a5e0.jpg
+', 'sach_ky_nang');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000154', 'Đừng Cố Làm Người Tốt Trong Mắt Tất Cả Mọi Người', 93000.00, 0.10, 500, 'https://salt.tikicdn.com/cache/w1200/ts/product/56/8f/94/f9f68445f5c917152d6be847953facd5.jpg
+', 'sach_ky_nang');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000155', 'Rèn Luyện Tư Duy Phản Biện', 59000.00, 0.10, 600, 'https://salt.tikicdn.com/cache/w1200/ts/product/22/cb/a9/524a27dcd45e8a13ae6eecb3dfacba7c.jpg
+', 'sach_ky_nang');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000156', 'Tuổi Trẻ Đáng Giá Bao Nhiêu', 61200.00, 0.10, 700, 'https://salt.tikicdn.com/cache/w1200/ts/product/f8/34/c8/5fbf2a6f9d07b76d98e2fff2b29b0d3c.jpg
+', 'sach_ky_nang');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000157', 'Đừng Lựa Chọn An Nhàn Khi Còn Trẻ', 68000.00, 0.10, 800, 'https://salt.tikicdn.com/cache/750x750/ts/product/a9/11/cd/8db57c8fd3685e41109da91542dae1d5.jpg.webp
+', 'sach_ky_nang');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000158', 'Trời Sinh Vụng Về, Hãy Bù Đắp Bằng Sự Kiên Trì', 92400.00, 0.10, 900, 'https://salt.tikicdn.com/cache/750x750/ts/product/e7/3a/33/d90504644a26715758f68aa20eebbde5.jpg.webp
+', 'sach_ky_nang');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000159', 'Tôi Không Thích Ồn Ào', 57000.00, 0.10, 1000, 'https://salt.tikicdn.com/cache/750x750/ts/product/c9/43/59/28b2b8e945464020bef3ebc4ef96332a.jpg.webp
+', 'sach_ky_nang');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000160', '100+ Bài Tập Kích Thích Não Bộ Hiệu Quả 40 Ngày Luyện Trí Nhớ', 77400.00, 0.10, 1100, 'https://salt.tikicdn.com/cache/750x750/ts/product/0f/b4/a1/df57f39662a1fbce05f4491d2dddb562.jpg.webp
+', 'sach_ky_nang');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000161', 'Lựa chọn trong tỉnh thức tập 6 - Ranh giới giữa mê và ngộ', 146000.00, 0.10, 1200, 'https://salt.tikicdn.com/cache/750x750/ts/product/d1/09/fd/ee2bbae4cfd64cd0cb59f1db276957e5.png.webp
+', 'sach_ky_nang');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000162', 'Lịch Pháp Và Những Ngày Tốt Trong Năm 2021 - 2030', 132000.00, 0.10, 1300, 'https://salt.tikicdn.com/cache/750x750/ts/product/f9/49/2b/a191fafca2a3faff76ee1de6637d62ce.jpg.webp
+', 'sach_ky_nang');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000163', 'Dám Bị Ghét', 71200.00, 0.10, 1400, 'https://salt.tikicdn.com/cache/750x750/ts/product/e2/61/15/941af8f7b8fd8b43cf8931b551fa9d54.jpg.webp
+', 'sach_ky_nang');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000164', 'Những Giấc Mơ Ở Hiệu Sách Morisaki', 62000.00, 0.20, 200, 'https://salt.tikicdn.com/cache/750x750/ts/product/54/f7/ca/03c0c61cea0582a3845944a31dbbdc7f.jpg.webp
+', 'tieu_thuyet');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000165', 'Tấm mạng hoa', 164500.00, 0.20, 180, 'https://salt.tikicdn.com/cache/750x750/ts/product/aa/7c/45/d8a7b084d2bab9c563b6482f90516407.jpg.webp
+', 'tieu_thuyet');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000166', 'Làm sao dừng lại thời gian', 143000.00, 0.20, 160, 'https://salt.tikicdn.com/cache/750x750/ts/product/12/94/cf/fab1bdde0318dec16055cd26ed10096a.jpg.webp
+', 'tieu_thuyet');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000167', 'Bách hóa giấc mơ của ngài Dollargut', 97600.00, 0.20, 140, 'https://salt.tikicdn.com/cache/750x750/ts/product/d9/c8/01/b519b25ad3ffda25420263f404a790f8.jpg.webp
+', 'tieu_thuyet');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000168', 'Cô Gái Trong Trang Sách', 114000.00, 0.20, 120, 'https://salt.tikicdn.com/cache/750x750/ts/product/48/72/98/5bfe08e21ef3b8f99110feb745e27da1.jpg.webp
+', 'tieu_thuyet');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000169', 'Mặt Trời Trong Suối Lạnh', 83000.00, 0.20, 100, 'https://salt.tikicdn.com/cache/750x750/ts/product/48/51/f7/03db850b858cd137e0f3bab0284f624e.jpg.webp
+', 'tieu_thuyet');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000170', 'Doraemon Truyện ngắn tập 1', 18000.00, 0.30, 485, 'https://salt.tikicdn.com/cache/750x750/ts/product/ed/9f/47/7259bd245d88fbd97ddc686705eec385.jpg.webp
+', 'truyen_tranh');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000171', 'Doraemon Truyện ngắn tập 2', 18000.00, 0.30, 496, 'https://product.hstatic.net/200000122283/product/doraemon-truyen-ngan-tap-2-k0cmp_6bb7427ce83c474480e111b85cf3128e_master.jpg
+', 'truyen_tranh');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000172', 'Doraemon Truyện ngắn tập 3', 18000.00, 0.30, 507, 'https://salt.tikicdn.com/cache/750x750/ts/product/5c/73/0d/1ca8a60bc9e6d21cdecd337b1e53722c.jpg.webp
+', 'truyen_tranh');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000173', 'Doraemon Truyện ngắn tập 4', 18000.00, 0.30, 518, 'https://salt.tikicdn.com/cache/750x750/ts/product/38/ba/e8/c1787ee8cb8d80fd80493e27530e02aa.jpg.webp
+', 'truyen_tranh');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000174', 'Doraemon Truyện ngắn tập 5', 18000.00, 0.30, 529, 'https://salt.tikicdn.com/cache/750x750/ts/product/23/a2/34/0584d8e0a0bae5c46ee37547ea7585a7.jpg.webp
+', 'truyen_tranh');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000175', 'Doraemon Truyện ngắn tập 6', 18000.00, 0.30, 540, 'https://salt.tikicdn.com/cache/750x750/ts/product/45/68/6d/18af4eda1a2873585aefcb923445e696.jpg.webp
+', 'truyen_tranh');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000176', 'Doraemon Truyện ngắn tập 7', 18000.00, 0.30, 551, 'https://salt.tikicdn.com/cache/750x750/ts/product/2c/58/65/b6163bd564482fa3632d0752154b99a6.jpg.webp
+', 'truyen_tranh');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000177', 'Doraemon Truyện ngắn tập 8', 18000.00, 0.30, 562, 'https://salt.tikicdn.com/cache/750x750/ts/product/83/66/b7/5df6277a77222b57f11558feca32452b.jpg.webp
+', 'truyen_tranh');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000178', 'Doraemon Truyện ngắn tập 9 ', 18000.00, 0.30, 573, 'https://salt.tikicdn.com/cache/750x750/ts/product/bf/a7/8c/1801cc484df62012dd327ce9b024f7bf.jpg.webp
+', 'truyen_tranh');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000179', 'Doraemon Truyện ngắn tập 10', 18000.00, 0.30, 584, 'https://salt.tikicdn.com/cache/750x750/ts/product/c0/de/40/0fc7b543ed621ade24b9d8e0084d9ac9.jpg.webp
+', 'truyen_tranh');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000180', 'Doraemon Truyện ngắn tập 11', 18000.00, 0.30, 595, 'https://salt.tikicdn.com/cache/750x750/ts/product/07/eb/f7/3981688dabb62f9c71b4daccc85fa1af.jpg.webp
+', 'truyen_tranh');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000181', 'Thám Tử Lừng Danh Conan - Tập 1', 20000.00, 0.30, 606, 'https://salt.tikicdn.com/cache/750x750/ts/product/36/cc/aa/b7232b49f02582eb09ce168bc05b9432.jpg.webp
+', 'truyen_tranh');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000182', 'Thám Tử Lừng Danh Conan - Tập 2', 20000.00, 0.30, 617, 'https://salt.tikicdn.com/cache/750x750/ts/product/e3/bc/3a/f5411a154e4caa39d5e5608a06030ebe.jpg.webp
+', 'truyen_tranh');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000183', 'Thám Tử Lừng Danh Conan - Tập 3', 20000.00, 0.30, 628, 'https://salt.tikicdn.com/cache/750x750/ts/product/1f/86/b7/d38bcf96f7eb032e02d2da9b92f2bafd.jpg.webp
+', 'truyen_tranh');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000184', 'Thám Tử Lừng Danh Conan - Tập 4', 20000.00, 0.30, 639, 'https://salt.tikicdn.com/cache/750x750/ts/product/ff/81/8e/aa679f58e8732c7df495a3672bae983c.jpg.webp
+', 'truyen_tranh');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000185', 'Thám Tử Lừng Danh Conan - Tập 5', 20000.00, 0.30, 650, 'https://salt.tikicdn.com/cache/750x750/ts/product/91/54/29/affd1287ac61d9204a6afb5a8083aac4.jpg.webp
+', 'truyen_tranh');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000186', 'Thám Tử Lừng Danh Conan - Tập 6', 20000.00, 0.30, 661, 'https://salt.tikicdn.com/cache/750x750/ts/product/00/f5/ce/2ad6d03a95028dc212745e66f8203b7d.jpg.webp
+', 'truyen_tranh');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000187', 'Thám Tử Lừng Danh Conan - Tập 7', 20000.00, 0.30, 672, 'https://salt.tikicdn.com/cache/750x750/ts/product/32/8d/63/3a569ecaf7f12f990368a3819b569405.jpg.webp
+', 'truyen_tranh');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000188', 'Thám Tử Lừng Danh Conan - Tập 8', 20000.00, 0.30, 683, 'https://salt.tikicdn.com/cache/750x750/ts/product/7f/ae/ef/fd2215e9b2ae86b470172aa218ed2ebb.jpg.webp
+', 'truyen_tranh');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000189', 'Thám Tử Lừng Danh Conan - Tập 9', 20000.00, 0.30, 694, 'https://salt.tikicdn.com/cache/750x750/ts/product/44/80/a7/1e43d859659fed7b42a8d000e0773911.jpg.webp
+', 'truyen_tranh');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000190', 'Thám Tử Lừng Danh Conan - Tập 10', 20000.00, 0.30, 705, 'https://salt.tikicdn.com/cache/750x750/ts/product/f5/80/1e/6820f2e70b9018f552678845a8615a03.jpg.webp
+', 'truyen_tranh');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000191', 'Thám Tử Lừng Danh Conan - Tập 11', 20000.00, 0.30, 716, 'https://salt.tikicdn.com/cache/750x750/ts/product/9b/52/2d/cb618671d0b94cf25600e54d97a15b60.jpg.webp
+', 'truyen_tranh');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000192', 'Thám Tử Lừng Danh Conan - Tập 12', 20000.00, 0.30, 727, 'https://salt.tikicdn.com/cache/750x750/ts/product/21/dd/dd/9b2ca3997da530dfef61d57f7b74d685.jpg.webp
+', 'truyen_tranh');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000193', 'Thám Tử Lừng Danh Conan - Tập 13', 20000.00, 0.30, 731, 'https://salt.tikicdn.com/cache/750x750/ts/product/5d/97/c2/9d4850420d465c8dd49a08def8ee348e.jpg.webp
+', 'truyen_tranh');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000194', 'Thám Tử Lừng Danh Conan - Tập 14', 20000.00, 0.30, 738, 'https://salt.tikicdn.com/cache/750x750/ts/product/b3/96/f7/0fa66cd4a5213f54b8f502b570dc8dba.jpg.webp
+', 'truyen_tranh');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000195', 'Thám Tử Lừng Danh Conan - Tập 15', 20000.00, 0.30, 749, 'https://salt.tikicdn.com/cache/750x750/ts/product/0d/78/b8/1e93c465dacb1ad47a67a92829fd2287.jpg.webp
+', 'truyen_tranh');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000196', 'Thám Tử Lừng Danh Conan - Tập 16', 20000.00, 0.30, 760, 'https://salt.tikicdn.com/cache/750x750/ts/product/23/86/5a/56b31bffdd35bb64af93c0bb42a28432.jpg.webp
+', 'truyen_tranh');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000197', 'Thám Tử Lừng Danh Conan - Tập 17', 20000.00, 0.30, 771, 'https://product.hstatic.net/200000343865/product/17_21_451b0c045ce649e1bcfdd8e4c6cecd72_master.jpg
+', 'truyen_tranh');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000198', 'Thám Tử Lừng Danh Conan - Tập 18', 20000.00, 0.30, 782, 'https://salt.tikicdn.com/cache/750x750/ts/product/cf/7f/cb/3d8f8ef6171c3362668681483549a230.jpg.webp
+', 'truyen_tranh');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000199', 'Thám Tử Lừng Danh Conan - Tập 19', 20000.00, 0.30, 793, 'https://salt.tikicdn.com/cache/750x750/ts/product/1a/5e/7c/9c60aff3c1f96da91340e27acbb6acf1.jpg.webp
+', 'truyen_tranh');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000200', 'Thám Tử Lừng Danh Conan - Tập 20', 20000.00, 0.30, 804, 'https://salt.tikicdn.com/cache/750x750/ts/product/64/c8/32/79836a412ff774e8a8e1ef0de2edf9e6.jpg.webp
+', 'truyen_tranh');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000201', 'Bút bi TL-27 Xanh dương', 5000.00, 0.10, 20000, 'https://bizweb.dktcdn.net/100/376/170/products/f393aab7-ce63-4486-b6a8-60f449da1e79.jpg?v=1642331690667
+', 'but_bi');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000202', 'Bút bi TL-79 Xanh dương', 6000.00, 0.10, 20000, 'https://bizweb.dktcdn.net/thumb/1024x1024/100/379/648/products/viet-bi-bam-tl-079-20c-h-l-1536295305-2-2.jpg
+', 'but_bi');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000203', 'Bút bi TL-27 Đỏ', 5000.00, 0.10, 20000, 'https://vanphongphamphukhiet.com/assets/van-phong-pham/027.jpg
+', 'but_bi');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000204', 'Bút bi TL-79 Đỏ', 6000.00, 0.10, 20000, 'https://bizweb.dktcdn.net/thumb/1024x1024/100/379/648/products/viet-bi-bam-tl-079-20c-h-l-1536295305-2-do.jpg?v=1589188473203
+', 'but_bi');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000205', 'Tập học sinh 200 trang', 8000.00, 0.10, 100000, 'https://vn-live-01.slatic.net/p/a4d8479e6b028c9acd79a14c5c9a6bf1.jpg
+', 'so_tay');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000206', 'Sổ tay A4 200 trang', 68000.00, 0.10, 1000, 'https://vanphong-pham.com/wp-content/uploads/2022/02/so-lx.jpg
+', 'so_tay');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000207', 'Máy tính cầm tay Casio FX-570 VN PLUS', 580000.00, 0.10, 500, 'https://salt.tikicdn.com/ts/product/22/b4/71/6f72811493314bff3789dd0551e40528.jpeg
+', 'mtct');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000208', 'Máy tính cầm tay Casio FX-580 VN PLUS', 680000.00, 0.20, 320, 'https://ngoclanvpp.vn/User_folder_upload/vppngoclan/files/may tinh Fx-580 VN X.jpg
+', 'mtct');
+INSERT INTO Product (uuid, p_name, price, discount, amount, cover, product_type_code) VALUES ('000209', 'Balo Toetalk Student Backpack', 500000.00, 0.10, 100, 'https://lzd-img-global.slatic.net/g/p/05e9460ec04cc807f2b61e49af04d416.jpg_720x720q80.jpg_.webp
+', 'balo');
+
+
 
 INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000150', '5612314', 2022, 'Nhà Xuất Bản Thanh Niên', 'Choi Kwanghyun');
 INSERT INTO Book (Book_UUID, IBSN, Publishing_year, Publisher, Authors) VALUES ('000151', '7123546', 2021, 'Nhà Xuất Bản Thanh Niên', 'Lý Thế Cường');
