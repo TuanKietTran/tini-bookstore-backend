@@ -9,10 +9,9 @@ import * as MySQLConnector from './api/mysql.connector';
 import { errorHandler, errorNotFoundHandler } from "./middlewares/errorHandler";
 
 // Routes
-import { product } from "./routes/product"
-import { bill } from "./routes/bill"
-import { book } from "./routes/book"
-import { stationery } from "./routes/stationery"
+import bill from "./routes/bill.router"
+import product from "./routes/product.router"
+
 // Create Express server
 export const app = express();
 
@@ -34,8 +33,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use("/", product);
-app.use("/book", book);
-app.use("/stationery", stationery);
 app.use("/bill", bill);
 
 app.use(errorNotFoundHandler);
