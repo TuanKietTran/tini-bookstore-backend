@@ -13,6 +13,7 @@ export const getProductById = async (id : string) => {
 }
 
 export const getProductByName = async (name : string) => {
+  console.log("here")
   return await query(ProductQueries.getProductByName, [name]);
 }
 

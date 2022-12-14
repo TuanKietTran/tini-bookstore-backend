@@ -1,9 +1,13 @@
-import { Request, RequestHandler, Response } from "express"
+import { NextFunction, Request, RequestHandler, Response } from "express"
 import * as ProductService from '../services/product.service';
 
-export const getProduct: RequestHandler = async (req: Request, res: Response) => {
+export const getProduct: RequestHandler = async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const products = await (await ProductService.getProduct()).rows;
+    const query = req.query.q as string || "";
+    console.log(req.query.q);
+    let products;
+    if (query !== "") products = await (await ProductService.getProductByName(query)).rows;
+    else products = await (await ProductService.getProduct()).rows;
 
     res.status(200).json(
       products

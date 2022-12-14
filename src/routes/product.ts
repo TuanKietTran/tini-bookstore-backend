@@ -5,4 +5,3 @@ export const product = Router();
 
 product.get("/", controller.getProduct);
 product.get("/:id", controller.getProductById);
-product.get("/search", controller.getProductByName);

@@ -9,7 +9,6 @@ import * as MySQLConnector from './api/mysql.connector';
 import { errorHandler, errorNotFoundHandler } from "./middlewares/errorHandler";
 
 // Routes
-import { index } from "./routes/index";
 import { product } from "./routes/product"
 import { bill } from "./routes/bill"
 import { book } from "./routes/book"
@@ -26,15 +25,15 @@ app.use(cors());
 
 app.set("port", process.env.PORT || 3000);
 
-app.use(logger("dev"));
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'jade');
 
-app.use(express.static(path.join(__dirname, "../public")));
+app.use(logger("dev"));
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use("/doc", index);
-app.use("/product", product);
+app.use("/", product);
 app.use("/book", book);
 app.use("/stationery", stationery);
 app.use("/bill", bill);
