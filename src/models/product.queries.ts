@@ -1,7 +1,7 @@
 export const ProductQueries = {
   getProduct: `SELECT * FROM PRODUCT`,
   getProductById: `SELECT * FROM PRODUCT WHERE PRODUCT.UUID = $1`,
-  getProductByName: `SELECT * FROM PRODUCT WHERE PRODUCT.P_NAME LIKE '%' || $1 || '%'`
+  getProductByName: `SELECT * FROM PRODUCT WHERE UPPER(PRODUCT.P_NAME) LIKE '%' || UPPER($1) || '%'`
 }
 
 export const BookQueries = {
